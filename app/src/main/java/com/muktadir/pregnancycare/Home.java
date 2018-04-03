@@ -365,6 +365,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
 
     }
 
+
     private void setInitialData() {
         //set icon id
         imageIdList.add(R.drawable.ic_power_settings_new_black_24dp);

@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">Pregnancy Care</string>
+
+    <string name="notes_toolbar">Notes</string>
+
+
+    <string name="appointment_doctor">Doctor Appointment</string>
+
+    <string name="no_cardetails">Click on the button below to Add Doctor Name for your reminder!</string>
+    <string name="title_activity_add_reminder">Add Doctor Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_reminder">Doctor Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+
+    // Start string for tips for diet chart
+
+    <string name="diet_one_title">1. Eat some Protein Foods Every Day. Sources of Protein include:</string>
+    <string name="diet_one_details">Meat (but avoid leaver), Fish, Poultry, Eggs, Beans, Pulses, Nuts Choose lean meat, remove the skin from poultry, and try not to add extra fat or oil when cooking meat. Eating meat in a healthy way.Try to eat two portions of fish a week, one of which should be oily fish as salmon. Dairy food such as milk, cheese, from age frail and yoghurt are important in pregnancy, because they contain calcium and other nutrients that your baby needs.
+    </string>
+
+    <string name="DietTwo_title">2. Food Avoid in Pregnancy:</string>
+    <string name="DietTwo_details">All spreading fats (such as butter), oils, cream, chocolate, crisps, biscuits, pastries, ice cream, cake, puddings.
+    You should only eat a small amount of these foods. Sugary food and drinks are often high in calories which can contribute to weight gain. Having sugary foods and drinks can also lead to tooth decay.
+    </string>
+
+
+    <string name="DietThree_title">3. Healthy Snacks in Pregnancy:</string>
+    <string name="DietThree_details">If you get hungry between meals, choose something healthier, such as: sandwiches or pitta bread filled with grated cheese, salmon, with salad vegetables, such as carrot, cucumber, low-fat lower sugar fruit, vegetable sticks.</string>
+
+    // End string for tips for diet chart
+
+    // Start string for tips for Exercise
+
+    <string name="exercise_heading">If you exercised regularly before getting pregnant and your pregnancy is uncomplicated, you can most likely continue working out as before, with modification as noted below.</string>
+    <string name="exercise_one_title">1. If you didn’t work out much before conceiving, talk to your healthcare provider.</string>
+
+    <string name="exercise_two_title">2. Take in Extra Calories:</string>
+    <string name="exercise_two_details">Exercise burns calories, so make sure to eat well to help nourish and strengthen your body. While you are pregnant, you will naturally gain weight as your body grows. The amount you will need to gain will vary based on your pre-pregnancy weight.</string>
+
+    <string name="exercise_three_title">3. Steer Clear of Dangerous Sports:</string>
+    <string name="exercise_three_details">Avoid contact sports. Regular cycling early in your pregnancy should be okay if you are comfortable on a bike, but it’s probably best to stick to stationary or recumbent bikes later in pregnancy.</string>
+
+    <string name="exercise_four_title">4. Wear the Right Clothes:</string>
+    <string name="exercise_four_details">Wear loose-fitting, breathable clothing. Dress in layers so it’s easy to peel of a layer or two after you have warmed up or if you feel too hot.</string>
+
+    <string name="exercise_five_title">5. Warm Up:</string>
+    <string name="exercise_five_details">Warm-ups prepare your muscles and joints for exercise and build your heart rate up slowly.</string>
+
+    <string name="exercise_six_title">6.Drink Plenty of Water:</string>
+    <string name="exercise_six_details">1 cup(8 Ounces) before exercise, every 20 min and after finish your workout. Otherwise, you can become dehydrated, which can cause contractions and raise your body temperature, sometimes to levels that are dangerous for you and your baby.</string>
+
+    <string name="exercise_seven_title">7.Don’t Lie Flat on Your Back:</string>
+    <string name="exercise_seven_details">Avoid lying flat on your back after the first trimester. This position puts pressure on a major vain, which will reduce blood to your heart and may diminish blood flow to your brain and uterus, making you dizzy, short of breath or nauseated.</string>
+
+    <string name="exercise_eight_title">8.Keep Moving:</string>
+    <string name="exercise_eight_details">Standing in one place for prolonged periods as when you are lifting weights or doing yoga poses can decrease blood flow to the uterus and cause blood to pool in your legs, making you dizzy. Keep moving by switching in positions or walking in place.</string>
+
+    <string name="exercise_nine_title">9.Dont Overdo it:</string>
+    <string name="exercise_nine_details">Don’t Exercise until you are exhausted. A good rule of thumb: Slow down if you can’t comfortably carry on a conversation.</string>
+
+    <string name="exercise_ten_title">10. Don’t Get Overheated:</string>
+    <string name="exercise_ten_details">Avoid letting yourself getting too hot, especially during the first trimester when your baby’s major organs are developing. Raising your core temperature above 102 degrees Fahrenheit for more than 10 minutes could harm your baby.</string>
+
+    <string name="exercise_eleven_title">11. Get Up From the Floor Slowly:</string>
+    <string name="exercise_eleven_details">As your belly grows, your Centre of gravity shifts. That’s why it’s important to take great care when you change positons. Getting up too quickly can make you dizzy and may cause you to lose your footing and fall. </string>
+
+    <string name="exercise_twelve_title">12. Cool Down:</string>
+    <string name="exercise_twelve_details">At the end of your workout, take five to ten minutes to walk in place and do some pregnancy-friendly stretching. This will allow your heart rate to get back to normal and help to prevent sore muscles.</string>
+
+    // End string for tips for diet chart
+
+    // Start string for tips for Exercise
+
+    <string name="health_one_title">1.Don’t Forget Breakfast: </string>
+    <string name="health_one_details"> Try fortified ready-to-eat or cooked breakfast cereals with fruit. Fortified cereals have added nutrients, like calcium. If you are feeling sick, start with whole wheat toast. Eat more food later in the morning.</string>
+
+    <string name="health_two_title">2. Eat Foods with Fiber: </string>
+    <string name="health_two_details">Choose a variety of vegetables and fruits, like carrots, bananas and melon. Eat plenty of beans and whole grains. Try brown rice. </string>
+
+    <string name="health_three_title"> 3.Choose Healthy Snacks:</string>
+    <string name="health_three_details">Low fat or fat free yogurt with fruit. Whole grain crackers with fat free or low fat cheese. </string>
+
+    <string name="health_four_title">4. Take a Prenatal Vitamin with Iron and Folic Acid Every Day: </string>
+    <string name="health_four_details">Iron keeps your body healthy. Folic acid helps prevent birth defects. </string>
+
+    <string name="health_five_title">5.Stay away from Soft Cheeses and Lunch Meat: </string>
+    <string name="health_five_details">Some foods may have bacteria that can hurt your baby. Don’t eat soft cheeses like uncooked or undercooked meats or fish. Lunch meats and hot dogs unless they are heated until streaming hot. </string>
+
+    <string name="health_six_title">6.Limit Caffeine and Avoid Alcohol: </string>
+    <string name="health_six_details"> Drink decaffeinated coffee or tea. Drink water or seltzer instead of soda. Don’t drink alcohol</string>
+
+    // End string for tips for health
+
+    // Start string for tips for Test
+
+    <string name="test_heading"> Below is a recommended schedule for tests performed during pregnancy. The tests aim to provide during pregnancy. The tests aim to provide basic information while tracking a routine pregnancy. Consult your nurse or physician if you have any questions.</string>
+
+    <string name="test_one_title">1.Urine or Blood Test: </string>
+    <string name="test_one_details"> Around the time of the delayed menstruation, a urine or blood test can be performed to determine pregnancy.</string>
+
+    <string name="test_two_title">2.Ultra Sound Test: </string>
+    <string name="test_two_details"> At 7-8 weeks a woman should have an ultrasound to determine the location of the pregnancy sac, size and heartbeat of the fetus.</string>
+
+    <string name="test_three_title"> 3.Routine Tests:</string>
+    <string name="test_three_details">At 10 weeks your doctor will give you a follow-up card to track your pregnancy.
+    Routine Tests: Blood count, fasting glucose, urine culture, blood type rubella antibodies, VDRL, CMV, antibodies, toxoplasma and HBsAG and if necessary an HIV test.
+    </string>
+
+    <string name="test_four_title">4.Early Ultrasound Screen Test: </string>
+    <string name="test_four_details">Week 15-16: early ultrasound screening test, An ultrasound scan sends sound waves through your uterus. These waves bounce off your baby as echoes. </string>
+
+    <string name="test_five_title">5.Triple Screen Test: </string>
+    <string name="test_five_details">Week 17: Triple screen test, fetoprotein or amniocentesis and blood count. The results of the blood test can help your doctor see if your baby may be at higher risk fir certain birth defects such as down syndrome and neural tube defects. </string>
+
+    <string name="test_six_title">6.Late Ultrasound Anomaly Scan: </string>
+    <string name="test_six_details"> Week 22-25: late ultrasound anomaly, An anomaly scan takes a close look at your baby and your uterus. The person carrying out the scan will check that your baby is developing normally.</string>
+
+    <string name="test_seven_title">7.Glucose Tolerance Test: </string>
+    <string name="test_seven_details">Week 26: A glucose tolerance test is done if a glucose screening test result is higher than normal. It is used to diagnose gestational diabetes. Gestational diabetes is high blood sugar that starts or is found during pregnancy.
+
+    Following Point discussion or review with Maternity Doctor, Except Last Point
+     </string>
+
+    <string name="test_eight_title">8.Discussion about Last Test (Glucose Tolerance Test): </string>
+    <string name="test_eight_details">Week 28: A visit to the physician to discuss glucose test results and talk about receiving RH immune globulin if RH negative. </string>
+
+    <string name="test_nine_title"> 9.Review for Fatal Growth:</string>
+    <string name="test_nine_details">Week 28-30: review of fatal growth of stages during pregnancy. </string>
+
+    <string name="test_ten_title"> 10.Consult with Maternity Doctor:</string>
+    <string name="test_ten_details">Week 32: for regular follow-up visit. </string>
+
+    <string name="test_eleven_title">11. Consult with Maternity Doctor for Weight Growth: </string>
+    <string name="test_eleven_details"> Week 34-39: weekly tracking of fatal growth weight.</string>
+
+    <string name="test_twelve_title"> 12.Consult about Ultrasound Test:</string>
+    <string name="test_twelve_details">Week 40: follow-up with doctor, ultrasound, monitoring biophysical profile every 2-4 days. </string>
+
+    <string name="test_thirteen_title">13.Stress Test: </string>
+    <string name="test_thirteen_details">Week 41-42: referral to the delivery room to perform a stress test or induce labor. The contraction stress test also called a stress test or an oxytocin challenge test may be done during pregnancy to measure the baby’s heart rate during uterine contractions. Its purpose is to make sure the baby can get the oxygen he needs from the placenta during labor.  </string>
+
+    // End string for tips for Test
+
+    <!-- For Home Screen -->
+    <string name="card_1_profile">Profile</string>
+    <string name="card_2_medicine">Medicine</string>
+    <string name="card_3_appointment">Appointment</string>
+    <string name="card_4_notes">Notes</string>
+    <string name="card_5_status">Status</string>
+    <string name="card_6_tips">Tips</string>
+
+    <string name="language">Change Language</string>
+
+</resources>
