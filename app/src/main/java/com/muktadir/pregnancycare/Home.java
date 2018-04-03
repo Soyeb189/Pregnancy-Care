@@ -171,7 +171,8 @@ public class Home extends AppCompatActivity implements OnClickListener{
 
                 pregDayFinalString = String.valueOf(pregDayFinal);
 
-                //Toast.makeText(getApplicationContext(),pregDayFinalString,Toast.LENGTH_SHORT).show();
+
+                Toast.makeText(getApplicationContext(),pregDayFinalString,Toast.LENGTH_SHORT).show();
                 String pD = String.valueOf(totalPregDay);
                 String pW = String.valueOf(finalPregWeek);
                 String pM = String.valueOf(totalPregMonth);
@@ -239,7 +240,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
 
                 }
 
-
+                    currentDay++;
                 if (currentDay >= periodDayInt){
                     pregDay = currentDay-periodDayInt;
 
@@ -252,13 +253,14 @@ public class Home extends AppCompatActivity implements OnClickListener{
                         pregYear = currentYear - (periodYearInt+1);
                     }
                 }
-                else if(currentDay<periodDayInt){
+                else if(currentDay < periodDayInt){
                     pregDay = (currentDay+30)-periodDayInt;
-                    if (currentMonth>=(periodMonthInt+1)){
+                    periodMonthInt++;
+                    if (currentMonth >= periodMonthInt){
                         pregMonth = currentMonth-periodMonthInt;
                         pregYear = currentYear - periodYearInt;
                     }
-                    else if (currentMonth<(periodMonthInt+1)){
+                    else if (currentMonth < periodMonthInt){
                         pregMonth = (currentMonth+12) - periodMonthInt;
                         pregYear = currentYear - (periodYearInt+1);
                     }
@@ -271,18 +273,22 @@ public class Home extends AppCompatActivity implements OnClickListener{
                 pregMonthFinal = pregMonthTotal+pregMonth;
                 pregDayTotal = pregMonthFinal*30;
                 pregDayFinal = pregDay + pregDayTotal;
+//
+//                totalPregMonth = pregDayFinal / 30;
+//                totalPregWeek = totalPregMonth % 30;
+//                finalPregWeek = totalPregWeek / 7;
+//                totalPregDay = totalPregWeek % 7;
+                finalPregWeek = pregDay / 7;
+                totalPregDay = pregDay % 7;
 
-                totalPregMonth = pregDayFinal / 30;
-                totalPregWeek = totalPregMonth % 30;
-                finalPregWeek = totalPregWeek / 7;
-                totalPregDay = totalPregWeek % 7;
 
                 pregDayFinalString = String.valueOf(pregDayFinal);
 
-                //Toast.makeText(getApplicationContext(),pregDayFinalString,Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getApplicationContext(),pregDayFinalString,Toast.LENGTH_SHORT).show();
                 String pD = String.valueOf(totalPregDay);
                 String pW = String.valueOf(finalPregWeek);
-                String pM = String.valueOf(totalPregMonth);
+             //   String pM = String.valueOf(totalPregMonth);
+                String pM = String.valueOf(pregMonth);
                 textViewMonth.setText(pM);
                 textViewWeek.setText(pW);
                 textViewDay.setText(pD);
