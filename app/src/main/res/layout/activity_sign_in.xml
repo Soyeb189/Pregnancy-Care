@@ -60,6 +60,8 @@
                         app:met_singleLineEllipsis="true"
                         app:met_baseColor="@color/black"
                         app:met_floatingLabel="highlight"
+                        app:met_errorColor="@color/white"
+                        android:textCursorDrawable="@color/white"
                         app:met_primaryColor="@color/black"
                         android:id="@+id/edtUserEmail"/>
 
@@ -73,6 +75,8 @@
                         android:inputType="textPassword"
                         app:met_singleLineEllipsis="true"
                         app:met_baseColor="@color/black"
+                        app:met_errorColor="@color/white"
+                        android:textCursorDrawable="@color/white"
                         app:met_floatingLabel="highlight"
                         app:met_primaryColor="@color/black"
                         android:id="@+id/edtUserPassword"/>
