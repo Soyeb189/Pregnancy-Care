@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "470558575642",
+    "firebase_url": "https://pregnancy-care-39a83.firebaseio.com",
+    "project_id": "pregnancy-care-39a83",
+    "storage_bucket": "pregnancy-care-39a83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470558575642:android:98234f4b71f8d370",
+        "android_client_info": {
+          "package_name": "com.muktadir.pregnancycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470558575642-llr9d1con2dp30jt3qvhf3fmpc6ldf7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muktadir.pregnancycare",
+            "certificate_hash": "3330cc3107f83d5cb5e6d78bd92e5d0c24ca99b3"
+          }
+        },
+        {
+          "client_id": "470558575642-cccchrquisvmookuorkv21nvr7729crc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwlW6AZDdkcIZVwjFAVnCRS1h1EpHmZ6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470558575642-cccchrquisvmookuorkv21nvr7729crc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

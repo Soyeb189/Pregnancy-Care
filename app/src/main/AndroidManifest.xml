@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.muktadir.pregnancycare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignIn" />
+        <activity android:name=".Home" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Medicine" />
+        <activity android:name=".Notes" />
+        <activity android:name=".Status" />
+        <activity android:name=".Tips" />
+        <activity android:name=".Appointment" />
+
+        <receiver android:name=".Medicine_Pack.NotificationReceiver" />
+
+        <activity
+            android:name=".AddReminderActivity"
+            android:parentActivityName=".Appointment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Appointment" />
+        </activity>
+        <activity android:name=".Notes_Pack.NoteActivity" />
+
+        <provider
+            android:name=".data.AlarmRemainderProvider"
+            android:authorities="com.muktadir.pregnancycare"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".reminder.RemainderAlarmService"
+            android:exported="false" />
+
+        <activity android:name=".Medicine_Pack.Add_Medicine" />
+        <activity android:name=".DiatChart" />
+        <activity android:name=".Exercise" />
+        <activity android:name=".Health" />
+        <activity android:name=".TestChart"></activity>
+    </application>
+
+</manifest>

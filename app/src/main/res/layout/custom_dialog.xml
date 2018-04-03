@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#734b6d">
+
+    <EditText
+        android:id="@+id/text_view_custom_dialog"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textSize="17dp"
+        android:background="@drawable/background_gradient"/>
+
+</RelativeLayout>
