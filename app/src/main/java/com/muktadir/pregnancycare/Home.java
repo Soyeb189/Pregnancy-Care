@@ -1,9 +1,13 @@
 package com.muktadir.pregnancycare;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Rect;
 import android.net.sip.SipSession;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -20,12 +24,15 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.hitomi.cmlibrary.CircleMenu;
 import com.hitomi.cmlibrary.OnMenuSelectedListener;
+import com.muktadir.pregnancycare.Helper.LocaleHelper;
 import com.nightonke.boommenu.BoomButtons.OnBMClickListener;
 import com.nightonke.boommenu.BoomButtons.TextInsideCircleButton;
 import com.nightonke.boommenu.BoomMenuButton;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+
+import io.paperdb.Paper;
 
 
 public class Home extends AppCompatActivity implements OnClickListener{
@@ -48,11 +55,26 @@ public class Home extends AppCompatActivity implements OnClickListener{
 
     int periodYearInt,periodMonthInt,periodDayInt,pregYear,pregMonth,pregDay,pregDayTotal,pregMonthTotal,finalPregWeek;
 
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocaleHelper.onAttach(newBase, "en"));
+    }
+
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language==null){
+            Paper.book().write("language", "en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else{
+            updateView((String)Paper.book().read("language"));
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         imageIdList = new ArrayList<>();
@@ -339,6 +361,10 @@ public class Home extends AppCompatActivity implements OnClickListener{
                         Toast.makeText(getApplicationContext(),"Log Out Successfully",Toast.LENGTH_SHORT).show();
 
                     }
+                    if (index==1){
+                        showChangeLanguageDialog();
+
+                    }
 
                 }
             });
@@ -363,6 +389,43 @@ public class Home extends AppCompatActivity implements OnClickListener{
 
         //Status Part
 
+    }
+
+    private void updateView(String lang) {
+        Context context = LocaleHelper.setLocale(this, lang);
+        Resources resources = context.getResources();
+    }
+
+    private void showChangeLanguageDialog() {
+        final String[] listLanguage = {"English","Bangla"};
+        AlertDialog.Builder mBuilder = new AlertDialog.Builder(Home.this);
+        mBuilder.setTitle(R.string.language);
+        mBuilder.setSingleChoiceItems(listLanguage, -1, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int i) {
+                if (i == 0){
+                    Paper.book().write("language", "en");
+                    updateView((String)Paper.book().read("language"));
+                    finish();
+                    overridePendingTransition( 0, 0);
+                    startActivity(getIntent());
+                    overridePendingTransition( 0, 0);
+                }
+
+                if (i == 1){
+                    Paper.book().write("language", "bn");
+                    updateView((String)Paper.book().read("language"));
+                    finish();
+                    overridePendingTransition( 0, 0);
+                    startActivity(getIntent());
+                    overridePendingTransition( 0, 0);
+
+                }
+                dialog.dismiss();
+            }
+        });
+        AlertDialog mDialog = mBuilder.create();
+        mDialog.show();
     }
 
 

@@ -177,4 +177,15 @@
 
     // End string for tips for Test
 
+
+    <!-- For Home Screen -->
+    <string name="card_1_profile">Profile</string>
+    <string name="card_2_medicine">Medicine</string>
+    <string name="card_3_appointment">Appointment</string>
+    <string name="card_4_notes">Notes</string>
+    <string name="card_5_status">Status</string>
+    <string name="card_6_tips">Tips</string>
+
+    <string name="language">Change Language</string>
+
 </resources>
