@@ -175,7 +175,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Appointment"
+                        android:text="Medicine"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -220,7 +220,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Medicine"
+                        android:text="Appointment"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                         android:textStyle="bold" />
                 </LinearLayout>
