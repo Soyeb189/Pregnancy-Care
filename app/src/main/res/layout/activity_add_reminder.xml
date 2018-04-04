@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:id="@+id/reminder_title"
             android:layout_marginLeft="72dp"
-            android:hint="Doctor Reminder"
+            android:hint="Medicine Reminder"
             android:textSize="25dp"
             android:lines="4"
             android:minLines="4"

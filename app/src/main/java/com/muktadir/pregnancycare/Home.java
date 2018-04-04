@@ -194,13 +194,13 @@ public class Home extends AppCompatActivity implements OnClickListener{
                 pregDayFinalString = String.valueOf(pregDayFinal);
 
 
-                Toast.makeText(getApplicationContext(),pregDayFinalString,Toast.LENGTH_SHORT).show();
+            //    Toast.makeText(getApplicationContext(),pregDayFinalString,Toast.LENGTH_SHORT).show();
                 String pD = String.valueOf(totalPregDay);
                 String pW = String.valueOf(finalPregWeek);
                 String pM = String.valueOf(totalPregMonth);
-                textViewMonth.setText(pM);
-                textViewWeek.setText(pW);
-                textViewDay.setText(pD);
+                textViewMonth.setText(" "+pM+" ");
+                textViewWeek.setText(" "+pW+" ");
+                textViewDay.setText(" "+pD+" ");
 
 
             }

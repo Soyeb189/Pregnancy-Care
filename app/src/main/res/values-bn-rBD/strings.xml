@@ -178,13 +178,17 @@
     // End string for tips for Test
 
     <!-- For Home Screen -->
-    <string name="card_1_profile">প্রোফাইে</string>
-    <string name="card_2_medicine">Medicine</string>
-    <string name="card_3_appointment">Appointment</string>
-    <string name="card_4_notes">Notes</string>
-    <string name="card_5_status">Status</string>
-    <string name="card_6_tips">Tips</string>
+    <string name="card_1_profile">প্রোফাইল</string>
+    <string name="card_2_medicine">ঔষধ তালিকা</string>
+    <string name="card_3_appointment">ডাক্তার সাক্ষাৎ</string>
+    <string name="card_4_notes">নোট</string>
+    <string name="card_5_status">স্ট্যাটাস</string>
+    <string name="card_6_tips">পরামর্শ</string>
 
-    <string name="language">Change Language</string>
+    <string name="language">ভাষা পরিবর্তন</string>
+    <string name="homeStatusOne"> আপনি এখন  </string>
+    <string name="homeStatusTwo">  মাস  </string>
+    <string name="homeStatusThree">  সপ্তাহ </string>
+    <string name="homeStatus4">  দিনের গর্ভবতী </string>
 
 </resources>

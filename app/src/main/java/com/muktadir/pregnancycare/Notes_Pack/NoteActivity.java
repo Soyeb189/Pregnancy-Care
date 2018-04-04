@@ -25,7 +25,7 @@ public class NoteActivity extends AppCompatActivity {
     private EditText mEtContent;
 
     private Toolbar m1Toolbar;
-   // private Button note_savebtn;
+     private Button note_savebtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +38,7 @@ public class NoteActivity extends AppCompatActivity {
 
         mEtTitle = (EditText) findViewById(R.id.note_et_title);
         mEtContent = (EditText) findViewById(R.id.note_et_content);
-      //  note_savebtn = (Button) findViewById(R.id.note_save);
+         note_savebtn = (Button) findViewById(R.id.note_save);
 
         //check if view/edit note bundle is set, otherwise user wants to create new note
         mFileName = getIntent().getStringExtra(Utilities.EXTRAS_NOTE_FILENAME);
@@ -55,6 +55,13 @@ public class NoteActivity extends AppCompatActivity {
             mNoteCreationTime = System.currentTimeMillis();
             mIsViewingOrUpdating = false;
         }
+
+        note_savebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                validateAndSaveNote();
+            }
+        });
 
     }
 
@@ -74,7 +81,8 @@ public class NoteActivity extends AppCompatActivity {
 
         switch (item.getItemId()) {
 
-            case R.id.action_save_note: //save the note
+            case R.id.action_save_note:
+                //save the note
             case R.id.action_update: //or update :P
                 validateAndSaveNote();
                 break;

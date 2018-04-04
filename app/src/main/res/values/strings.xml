@@ -187,5 +187,9 @@
     <string name="card_6_tips">Tips</string>
 
     <string name="language">Change Language</string>
+    <string name="homeStatusOne">You are now </string>
+    <string name="homeStatusTwo"> Month </string>
+    <string name="homeStatusThree"> Week </string>
+    <string name="homeStatus4"> Days Pregnant</string>
 
 </resources>
