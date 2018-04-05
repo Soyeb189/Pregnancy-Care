@@ -1,29 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:padding="25dp"
     android:gravity="center"
     android:background="@drawable/background_gradient"
     tools:context="com.muktadir.pregnancycare.Status">
 
-    <EditText
+
+    <com.rengwuxian.materialedittext.MaterialEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bmi_height"
         android:hint="Input your height (cm):"
+        android:textColorHint="@color/black"
+        app:met_singleLineEllipsis="true"
+        app:met_baseColor="@color/black"
+        app:met_floatingLabel="highlight"
+        app:met_errorColor="@color/white"
+        android:textCursorDrawable="@color/white"
+        app:met_primaryColor="@color/black"
         android:inputType="number"
         android:maxLength="3"
         android:layout_margin="6dp"
         />
 
-    <EditText
+    <com.rengwuxian.materialedittext.MaterialEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bmi_weight"
         android:hint="Input your weight (Kg):"
+        android:textColorHint="@color/black"
+        app:met_singleLineEllipsis="true"
+        app:met_baseColor="@color/black"
+        app:met_floatingLabel="highlight"
+        app:met_errorColor="@color/white"
+        android:textCursorDrawable="@color/white"
+        app:met_primaryColor="@color/black"
         android:inputType="numberDecimal"
         android:maxLength="5"
         android:layout_margin="6dp"
@@ -45,6 +66,7 @@
         android:id="@+id/calculate_bmi"
         android:layout_margin="6dp"
         android:text="Calculate BMI"
+        android:background="@drawable/button_background"
         android:textStyle="bold"
         android:textAllCaps="false"
         />
@@ -55,6 +77,7 @@
         android:id="@+id/add_to_record_bmi"
         android:layout_margin="6dp"
         android:text="Add to Record"
+        android:background="@drawable/button_background"
         android:textStyle="bold"
         android:textAllCaps="false"
         />
@@ -73,15 +96,18 @@
 
         <com.github.mikephil.charting.charts.LineChart
             android:id="@+id/bmi_chart"
-            android:background="#f1a8cc"
+            android:background="#fcfcfc"
             android:layout_width="match_parent"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
+            android:padding="10dp"
             android:layout_height="180dp"></com.github.mikephil.charting.charts.LineChart>
 
     </LinearLayout>
-
-
-
-
 </LinearLayout>
+</ScrollView>
+
+
+
+
+
