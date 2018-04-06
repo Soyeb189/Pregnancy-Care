@@ -21,7 +21,7 @@ public class SplashScreen extends AppCompatActivity {
                 .withBackgroundResource(R.drawable.background_gradient)
                 .withLogo(R.drawable.logopega)
                 .withAfterLogoText("Pregnancy Care")
-                .withHeaderText("SignIn")
+                .withHeaderText("WELCOME TO")
                 .withFooterText("Copyright 2018");
 
         config.getHeaderTextView().setTextColor(Color.WHITE);
