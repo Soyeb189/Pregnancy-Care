@@ -32,13 +32,13 @@ public class Appointment extends AppCompatActivity implements LoaderManager.Load
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTitle("Appointment");
+        setTitle("Medicine Reminder");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_appointment);
 
         mToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
-        mToolbar.setTitle(R.string.appointment_doctor);
+
 
 
         reminderListView = findViewById(R.id.list);

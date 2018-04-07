@@ -40,10 +40,11 @@ public class Notes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notes);
+        setTitle("Notes");
 
         mToolbar = (Toolbar) findViewById(R.id.notes_toolbar);
         setSupportActionBar(mToolbar);
-        mToolbar.setTitle(R.string.notes_toolbar);
+        //mToolbar.setTitle(R.string.notes_toolbar);
 
         mListNotes = (ListView) findViewById(R.id.list);
         addNoteButton = (FloatingActionButton)findViewById(R.id.fab_note);

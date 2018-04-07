@@ -25,7 +25,7 @@ public class NotificationReceiver  extends BroadcastReceiver {
                 .setSmallIcon(R.drawable.ic_notifications_on_white_24dp)
                 .setSound(Settings.System.DEFAULT_NOTIFICATION_URI)
                 .setVibrate(new long[]{1000,1000,1000,1000})
-                .setContentTitle("Doctor Appointment")
+                .setContentTitle("Medicine Reminder")
                 .setContentText(text)
                 .setAutoCancel(true);
         notificationManager.notify(NID,builder.build());

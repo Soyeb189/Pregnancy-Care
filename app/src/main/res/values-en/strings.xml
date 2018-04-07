@@ -7,7 +7,7 @@
     <string name="appointment_doctor">Doctor Appointment</string>
 
     <string name="no_cardetails">Click on the button below to Add Doctor Name for your reminder!</string>
-    <string name="title_activity_add_reminder">Add Doctor Reminder</string>
+    <string name="title_activity_add_reminder">Medicine Reminder</string>
     <string name="title_activity_edit_reminder">Edit Reminder</string>
     <string name="title_activity_licenses">Licenses</string>
 

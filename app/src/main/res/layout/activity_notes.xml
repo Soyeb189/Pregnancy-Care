@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background_gradient"
     tools:context="com.muktadir.pregnancycare.Notes">
 
 
@@ -23,7 +24,9 @@
         android:layout_below="@+id/notes_toolbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_gradient"/>
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_note"

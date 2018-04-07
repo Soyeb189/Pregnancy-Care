@@ -31,10 +31,10 @@ public class NoteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.note_activity);
-
+        setTitle("Add Notes");
         m1Toolbar = (Toolbar) findViewById(R.id.note_toolbar);
         setSupportActionBar(m1Toolbar);
-        m1Toolbar.setTitle(R.string.notes_toolbar);
+        //m1Toolbar.setTitle(R.string.notes_toolbar);
 
         mEtTitle = (EditText) findViewById(R.id.note_et_title);
         mEtContent = (EditText) findViewById(R.id.note_et_content);
