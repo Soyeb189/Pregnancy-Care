@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/add_to_record_bmi"
         android:layout_margin="6dp"
-        android:text="Add to Record"
+        android:text="@string/add_to_rec"
         android:background="@drawable/button_background"
         android:textStyle="bold"
         android:textAllCaps="false"

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Pregnancy Care</string>
 
@@ -8,6 +9,9 @@
 
     <string name="no_cardetails">Click on the button below to Add Doctor Name for your reminder!</string>
     <string name="title_activity_add_reminder">Medicine Reminder</string>
+    <string name="title_activity_add_appointmentMedicine">Set Appointmet</string>
+    <string name="title_activity_tips">Tips </string>
+
     <string name="title_activity_edit_reminder">Edit Reminder</string>
     <string name="title_activity_licenses">Licenses</string>
 
@@ -191,5 +195,6 @@
     <string name="homeStatusTwo"> Month </string>
     <string name="homeStatusThree"> Week </string>
     <string name="homeStatus4"> Days Pregnant</string>
+    <string name="add_to_rec">Add to Record</string>
 
 </resources>

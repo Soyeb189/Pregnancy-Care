@@ -19,7 +19,7 @@
             android:id="@+id/txtVwName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Muktadir Soyeb"
+            android:text="Update Your Profile"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:textColor="#ffffff"

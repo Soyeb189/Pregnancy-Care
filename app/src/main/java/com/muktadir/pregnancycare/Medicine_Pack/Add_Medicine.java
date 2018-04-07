@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -31,6 +32,7 @@ public class Add_Medicine extends AppCompatActivity implements TimePickerDialog.
     int hour,minute,year,month,day;
     RelativeLayout date_l, time_l;
     Button save;
+    private Toolbar mToolbar;
 
 
 
@@ -48,6 +50,10 @@ public class Add_Medicine extends AppCompatActivity implements TimePickerDialog.
         setDate = (TextView) findViewById(R.id.set_date);
         setTime = (TextView) findViewById(R.id.set_time);
         save=(Button)findViewById(R.id.save_icon);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar_addmedicine);
+
+        setSupportActionBar(mToolbar);
+        getSupportActionBar().setTitle(R.string.title_activity_add_appointmentMedicine);
 
         time_l.setOnClickListener(
                 new View.OnClickListener() {
