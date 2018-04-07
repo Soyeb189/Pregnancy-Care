@@ -70,9 +70,8 @@ public class Home extends AppCompatActivity implements OnClickListener{
         String Language = Paper.book().read("language");
         Toast.makeText(this, Language, Toast.LENGTH_LONG).show();
         if(Language==null){
-            Paper.book().write("language", "bn-rBD");
+            Paper.book().write("language", "en");
             updateView((String)Paper.book().read("language"));
-            Toast.makeText(this, Language, Toast.LENGTH_LONG).show();
         }
 
         super.onCreate(savedInstanceState);
@@ -404,7 +403,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
             @Override
             public void onClick(DialogInterface dialog, int i) {
                 if (i == 0){
-                    Paper.book().write("language", "en-rUS");
+                    Paper.book().write("language", "en");
                     updateView((String)Paper.book().read("language"));
                     finish();
                     overridePendingTransition( 0, 0);
@@ -413,7 +412,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
                 }
 
                 if (i == 1){
-                    Paper.book().write("language", "bn-rBD");
+                    Paper.book().write("language", "bn");
                     updateView((String)Paper.book().read("language"));
                     finish();
                     overridePendingTransition( 0, 0);

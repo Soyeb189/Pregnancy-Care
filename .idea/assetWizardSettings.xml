@@ -5,6 +5,7 @@
       <map>
         <entry key="imageWizard">
           <value>
+<<<<<<< Updated upstream
             <PersistentState>
               <option name="children">
                 <map>
@@ -49,6 +50,9 @@
                 </map>
               </option>
             </PersistentState>
+=======
+            <PersistentState />
+>>>>>>> Stashed changes
           </value>
         </entry>
         <entry key="vectorWizard">
