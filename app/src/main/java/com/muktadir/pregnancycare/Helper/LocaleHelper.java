@@ -8,6 +8,7 @@ import android.content.res.Resources;
 import android.os.Build;
 import android.preference.PreferenceManager;
 
+import java.text.NumberFormat;
 import java.util.Locale;
 
 public class LocaleHelper {

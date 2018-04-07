@@ -6,6 +6,7 @@ import android.graphics.Rect;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
@@ -20,6 +21,7 @@ public class Tips extends AppCompatActivity implements View.OnClickListener {
 
     BoomMenuButton boomMenuButton;
     private CardView dietCardView, exerciseCardView, healthCardView, testCardView;
+    private Toolbar mToolbar;
 
     ArrayList<Integer> imageIdList;
     ArrayList<String> imageTitleList;
@@ -35,6 +37,10 @@ public class Tips extends AppCompatActivity implements View.OnClickListener {
         exerciseCardView = findViewById(R.id.cardVwExercise);
         healthCardView = findViewById(R.id.cardVwHelth);
         testCardView = findViewById(R.id.cardVwTest);
+        mToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+
+        setSupportActionBar(mToolbar);
+        getSupportActionBar().setTitle(R.string.title_activity_tips);
 
 
         dietCardView.setOnClickListener(this);
@@ -84,8 +90,9 @@ public class Tips extends AppCompatActivity implements View.OnClickListener {
     private void setInitialData() {
         //set icon id
         imageIdList.add(R.drawable.ic_power_settings_new_black_24dp);
-        imageIdList.add(R.drawable.ic_add_alert_black_24dp);
         imageIdList.add(R.drawable.ic_build_black_24dp);
+        imageIdList.add(R.drawable.ic_add_alert_black_24dp);
+
 
 
         //set icon title

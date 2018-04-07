@@ -67,14 +67,14 @@ public class Home extends AppCompatActivity implements OnClickListener{
 
         Paper.init(this);
 
-        String language = Paper.book().read("language");
-        if(language==null){
-            Paper.book().write("language", "en");
+        String Language = Paper.book().read("language");
+        Toast.makeText(this, Language, Toast.LENGTH_LONG).show();
+        if(Language==null){
+            Paper.book().write("language", "bn-rBD");
             updateView((String)Paper.book().read("language"));
+            Toast.makeText(this, Language, Toast.LENGTH_LONG).show();
         }
-        else{
-            updateView((String)Paper.book().read("language"));
-        }
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         imageIdList = new ArrayList<>();
@@ -346,7 +346,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
 
                     .normalImageRes(imageIdList.get(i))
                     .normalText(imageTitleList.get(i));
-            builder.imagePadding(new Rect(40, 40, 40, 40));
+            builder.imagePadding(new Rect(30, 30, 30, 30));
 
             builder.listener(new OnBMClickListener() {
                 @Override
@@ -404,7 +404,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
             @Override
             public void onClick(DialogInterface dialog, int i) {
                 if (i == 0){
-                    Paper.book().write("language", "en");
+                    Paper.book().write("language", "en-rUS");
                     updateView((String)Paper.book().read("language"));
                     finish();
                     overridePendingTransition( 0, 0);
@@ -413,7 +413,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
                 }
 
                 if (i == 1){
-                    Paper.book().write("language", "bn");
+                    Paper.book().write("language", "bn-rBD");
                     updateView((String)Paper.book().read("language"));
                     finish();
                     overridePendingTransition( 0, 0);
@@ -432,8 +432,9 @@ public class Home extends AppCompatActivity implements OnClickListener{
     private void setInitialData() {
         //set icon id
         imageIdList.add(R.drawable.ic_power_settings_new_black_24dp);
-        imageIdList.add(R.drawable.ic_add_alert_black_24dp);
         imageIdList.add(R.drawable.ic_build_black_24dp);
+        imageIdList.add(R.drawable.ic_add_alert_black_24dp);
+
 
 
         //set icon title
@@ -478,5 +479,12 @@ public class Home extends AppCompatActivity implements OnClickListener{
             default: break;
         }
 
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        String Language = Paper.book().read("language");
+        Toast.makeText(this, Language, Toast.LENGTH_LONG).show();
     }
 }

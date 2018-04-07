@@ -43,7 +43,7 @@
             android:textStyle="italic"
             android:gravity="center"
             android:textColor="@color/white"
-            android:text="Click on the button below to doctor meet reminder"/>
+            android:text="Click on the button below to add medicine details to reminder"/>
     </RelativeLayout>
 
     <android.support.design.widget.FloatingActionButton

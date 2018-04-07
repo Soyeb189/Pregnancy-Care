@@ -115,7 +115,7 @@ public class AddReminderActivity extends AppCompatActivity implements
 
 
         // Initialize Views
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar1);
         mTitleText = (EditText) findViewById(R.id.reminder_title);
         mDateText = (TextView) findViewById(R.id.set_date);
         mTimeText = (TextView) findViewById(R.id.set_time);

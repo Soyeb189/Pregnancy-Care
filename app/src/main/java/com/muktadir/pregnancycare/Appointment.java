@@ -32,7 +32,7 @@ public class Appointment extends AppCompatActivity implements LoaderManager.Load
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTitle("Appointment");
+        setTitle("Medicine");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_appointment);
 
