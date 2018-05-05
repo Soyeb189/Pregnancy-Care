@@ -2,7 +2,10 @@ package com.muktadir.pregnancycare;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Rect;
+import android.net.Uri;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -25,6 +28,9 @@ public class Tips extends AppCompatActivity implements View.OnClickListener {
 
     ArrayList<Integer> imageIdList;
     ArrayList<String> imageTitleList;
+
+    String number = "999";
+
 
 
     @Override
@@ -70,11 +76,35 @@ public class Tips extends AppCompatActivity implements View.OnClickListener {
                     // When the boom-button corresponding this builder is clicked.
                     Intent i;
                     if (index == 0) {
+                        i = new Intent(Tips.this, Home.class);
+                        startActivity(i);
+
+                    }
+                    if (index == 1) {
+                        i = new Intent(Intent.ACTION_CALL);
+                        String dial = "tel:" + number;
+                        if (ActivityCompat.checkSelfPermission(Tips.this, android.Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                            // TODO: Consider calling
+                            //    ActivityCompat#requestPermissions
+                            // here to request the missing permissions, and then overriding
+                            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                            //                                          int[] grantResults)
+                            // to handle the case where the user grants the permission. See the documentation
+                            // for ActivityCompat#requestPermissions for more details.
+
+                            return;
+                        }
+                        else {
+                            startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
+                        }
+
+                    }
+                    if (index==2){
                         FirebaseAuth.getInstance().signOut();
                         finish();
-                        i = new Intent(Tips.this, SignIn.class);
+                        i = new Intent(Tips.this,SignIn.class);
                         startActivity(i);
-                        Toast.makeText(getApplicationContext(), "Log Out Successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),"Log Out Successfully",Toast.LENGTH_SHORT).show();
 
                     }
 
@@ -89,17 +119,17 @@ public class Tips extends AppCompatActivity implements View.OnClickListener {
     // Set Data for boom menu
     private void setInitialData() {
         //set icon id
+        imageIdList.add(R.drawable.ic_home_black_24dp);
+        imageIdList.add(R.drawable.ic_call_black_24dp);
         imageIdList.add(R.drawable.ic_power_settings_new_black_24dp);
-        imageIdList.add(R.drawable.ic_build_black_24dp);
-        imageIdList.add(R.drawable.ic_add_alert_black_24dp);
 
 
 
         //set icon title
 
-        imageTitleList.add("Log Out");
-        imageTitleList.add("Settings");
-        imageTitleList.add("Notification");
+        imageTitleList.add(getString(R.string.profile_b_home));
+        imageTitleList.add(getString(R.string.profile_b_emergency));
+        imageTitleList.add(getString(R.string.profile_b_logout));
 
 
     }

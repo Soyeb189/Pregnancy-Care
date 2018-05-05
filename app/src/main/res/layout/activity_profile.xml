@@ -56,7 +56,7 @@
                         android:id="@+id/txtVwNameHint"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:hint="Name:"
+                        android:hint="@string/name"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                         android:textStyle="bold" />
                     <TextView
@@ -119,7 +119,7 @@
                             android:id="@+id/txtVwBirthYearHint"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:hint="Date Of Birth:"
+                            android:hint="@string/date_of_birth"
                             android:layout_gravity="center"
                             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                             android:textStyle="bold" />
@@ -204,7 +204,7 @@
                         android:id="@+id/txtVwAgeHint"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:hint="Age:"
+                        android:hint="@string/age"
                         android:layout_gravity="left|center"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                         android:textStyle="bold" />
@@ -273,7 +273,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:hint="Last Monthly Period:"
+                            android:hint="@string/last_monthly_period"
                             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -337,7 +337,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_height="wrap_content"
-            android:text="Save"/>
+            android:text="@string/save"/>
     </LinearLayout>
 
 

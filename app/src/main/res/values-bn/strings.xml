@@ -53,130 +53,214 @@
 
     // Start string for tips for diet chart
 
-    <string name="diet_one_title">1. Eat some Protein Foods Every Day. Sources of Protein include:</string>
-    <string name="diet_one_details">Meat (but avoid leaver), Fish, Poultry, Eggs, Beans, Pulses, Nuts Choose lean meat, remove the skin from poultry, and try not to add extra fat or oil when cooking meat. Eating meat in a healthy way.Try to eat two portions of fish a week, one of which should be oily fish as salmon. Dairy food such as milk, cheese, from age frail and yoghurt are important in pregnancy, because they contain calcium and other nutrients that your baby needs.
-    </string>
+    <string name="tips_diet">খাদ্য তালিকা </string>
+    <string name="tips_exercise">অনুশীলনী পরামর্শ </string>
+    <string name="tips_health">স্বাস্থ্য পরামর্শ </string>
+    <string name="tips_test">সপ্তাহ অনুযায়ী পরামর্শ  </string>
 
-    <string name="DietTwo_title">2. Food Avoid in Pregnancy:</string>
-    <string name="DietTwo_details">All spreading fats (such as butter), oils, cream, chocolate, crisps, biscuits, pastries, ice cream, cake, puddings.
-    You should only eat a small amount of these foods. Sugary food and drinks are often high in calories which can contribute to weight gain. Having sugary foods and drinks can also lead to tooth decay.
-    </string>
+    <string name="diet_one_title">১) শক্তিদায়ক খাবারঃ </string>
+    <string name="diet_one_details">যেমন ভাত, রুটি/ পরাটা, আলু, চিনি, গুড়, সুজি, সয়াবিন তাল, বাদাম, কলিজা, ঘি/ মাখন, ডিমের কসুম।\n\n
+
+শক্তি ক্ষয়পূরণ ও নবজাতকের শরীর বৃদ্ধিকারক খাবারঃ
+মাছ, মাংস, দুধ, ডিমের সাদা অংশ, বিভিন্ন ধরনের ডাল, মটরশুঁটি, সীমের বীচি।
+</string>
+
+    <string name="DietTwo_title">২) রোগ প্রতিরোধক খাবারঃ </string>
+    <string name="DietTwo_details">সবুজ, হলুদ ও অন্যান্য রঙ্গিন শাক-সবজি, সব ধরনের মৌসুমি ফলমূল।\n
+</string>
 
 
-    <string name="DietThree_title">3. Healthy Snacks in Pregnancy:</string>
-    <string name="DietThree_details">If you get hungry between meals, choose something healthier, such as: sandwiches or pitta bread filled with grated cheese, salmon, with salad vegetables, such as carrot, cucumber, low-fat lower sugar fruit, vegetable sticks.</string>
-
-    // End string for tips for diet chart
-
-    // Start string for tips for Exercise
-
-    <string name="exercise_heading">If you exercised regularly before getting pregnant and your pregnancy is uncomplicated, you can most likely continue working out as before, with modification as noted below.</string>
-    <string name="exercise_one_title">1. If you didn’t work out much before conceiving, talk to your healthcare provider.</string>
-
-    <string name="exercise_two_title">2. Take in Extra Calories:</string>
-    <string name="exercise_two_details">Exercise burns calories, so make sure to eat well to help nourish and strengthen your body. While you are pregnant, you will naturally gain weight as your body grows. The amount you will need to gain will vary based on your pre-pregnancy weight.</string>
-
-    <string name="exercise_three_title">3. Steer Clear of Dangerous Sports:</string>
-    <string name="exercise_three_details">Avoid contact sports. Regular cycling early in your pregnancy should be okay if you are comfortable on a bike, but it’s probably best to stick to stationary or recumbent bikes later in pregnancy.</string>
-
-    <string name="exercise_four_title">4. Wear the Right Clothes:</string>
-    <string name="exercise_four_details">Wear loose-fitting, breathable clothing. Dress in layers so it’s easy to peel of a layer or two after you have warmed up or if you feel too hot.</string>
-
-    <string name="exercise_five_title">5. Warm Up:</string>
-    <string name="exercise_five_details">Warm-ups prepare your muscles and joints for exercise and build your heart rate up slowly.</string>
-
-    <string name="exercise_six_title">6.Drink Plenty of Water:</string>
-    <string name="exercise_six_details">1 cup(8 Ounces) before exercise, every 20 min and after finish your workout. Otherwise, you can become dehydrated, which can cause contractions and raise your body temperature, sometimes to levels that are dangerous for you and your baby.</string>
-
-    <string name="exercise_seven_title">7.Don’t Lie Flat on Your Back:</string>
-    <string name="exercise_seven_details">Avoid lying flat on your back after the first trimester. This position puts pressure on a major vain, which will reduce blood to your heart and may diminish blood flow to your brain and uterus, making you dizzy, short of breath or nauseated.</string>
-
-    <string name="exercise_eight_title">8.Keep Moving:</string>
-    <string name="exercise_eight_details">Standing in one place for prolonged periods as when you are lifting weights or doing yoga poses can decrease blood flow to the uterus and cause blood to pool in your legs, making you dizzy. Keep moving by switching in positions or walking in place.</string>
-
-    <string name="exercise_nine_title">9.Dont Overdo it:</string>
-    <string name="exercise_nine_details">Don’t Exercise until you are exhausted. A good rule of thumb: Slow down if you can’t comfortably carry on a conversation.</string>
-
-    <string name="exercise_ten_title">10. Don’t Get Overheated:</string>
-    <string name="exercise_ten_details">Avoid letting yourself getting too hot, especially during the first trimester when your baby’s major organs are developing. Raising your core temperature above 102 degrees Fahrenheit for more than 10 minutes could harm your baby.</string>
-
-    <string name="exercise_eleven_title">11. Get Up From the Floor Slowly:</string>
-    <string name="exercise_eleven_details">As your belly grows, your Centre of gravity shifts. That’s why it’s important to take great care when you change positons. Getting up too quickly can make you dizzy and may cause you to lose your footing and fall. </string>
-
-    <string name="exercise_twelve_title">12. Cool Down:</string>
-    <string name="exercise_twelve_details">At the end of your workout, take five to ten minutes to walk in place and do some pregnancy-friendly stretching. This will allow your heart rate to get back to normal and help to prevent sore muscles.</string>
+    <string name="DietThree_title">৩) খাবার সম্পর্কে অন্যান্য পরামর্শঃ</string>
+    <string name="DietThree_details">I.	তিন বেলায় স্বাভাবিকের থেকে একটু বেশি খেতে হবে।\n
+II.	প্রতিদিন তিন ধরনের খাবার থেকেই খাবার খাওয়া।\n
+III.	বেশি করে পানি খেতে হবে।\n
+IV.	দুপুরের খাবারের পর ১-২ ঘন্টা হবে।\n
+V.	রাত ৮ তার পরে ঘুমিয়ে পড়তে হবে।\n\nপেঁপে ও আনারস পেটের জন্য উপকারী ফল এবং পরিমিত পরিমাণে খাওয়া যায়। তবে যাদের  গর্ভপাতের হিষ্ট্রি আছে তদের প্রথম তিন মাস অতিরিক্ত কাঁচা পেঁপে ও আনারস না খাওয়াই ভালো।
+কারণ কিছু ক্ষেত্রে এগুলো জরায়ুর সংকোচন ঘটিয়ে গর্ভপাত করতে পারে।\n\n
+এই সময়ে আধা সিদ্ধ মাংস, আনপাস্তারাইজড মিল্ক, হট ডগ লিস্টেরিয়া নামক জীবাণুর সংক্রমণ থেকে গর্ভপাত হতে পারে। বড়ির পোষা বিড়াল থেকেও অনেক সময় এই জীবাণু সংক্রমিত হতে পারে।
+</string>
 
     // End string for tips for diet chart
 
     // Start string for tips for Exercise
 
-    <string name="health_one_title">1.Don’t Forget Breakfast: </string>
-    <string name="health_one_details"> Try fortified ready-to-eat or cooked breakfast cereals with fruit. Fortified cereals have added nutrients, like calcium. If you are feeling sick, start with whole wheat toast. Eat more food later in the morning.</string>
+    <string name="exercise_heading"></string>
+    <string name="exercise_one_title"></string>
 
-    <string name="health_two_title">2. Eat Foods with Fiber: </string>
-    <string name="health_two_details">Choose a variety of vegetables and fruits, like carrots, bananas and melon. Eat plenty of beans and whole grains. Try brown rice. </string>
+    <string name="exercise_two_title">যা যা করা যাবে না- </string>
+    <string name="exercise_two_details">I.	গৃহস্থালীর কঠিন কাজ যেমন – ধান মাড়াই, ধান ভানা, ঢেঁকিতে চাপা ইত্যাদি, টিউবওয়েল চাপা।\n
+II.	ভারী কোন কিছু তোলা বা বহন করা। \n
+III.	শরীরে ঝাকি লাগে এমন কাজ। \n
+IV.	দীর্ঘ সময় কোন কাজে লিপ্ত থাকা। \n
+V.	তামাক, গুল ব্যবহার করা বা অন্য কোন নেশা জতীয় দ্রব্য।\n
+VI.	স্বাস্থ্য কর্মী বা ডাক্তারের পরামর্শ ছাড়া কোন ঔষধ গ্রহন করা।\n
 
-    <string name="health_three_title"> 3.Choose Healthy Snacks:</string>
-    <string name="health_three_details">Low fat or fat free yogurt with fruit. Whole grain crackers with fat free or low fat cheese. </string>
+</string>
 
-    <string name="health_four_title">4. Take a Prenatal Vitamin with Iron and Folic Acid Every Day: </string>
-    <string name="health_four_details">Iron keeps your body healthy. Folic acid helps prevent birth defects. </string>
+    <string name="exercise_three_title">সাধারণ কার্যাবলী</string>
+    <string name="exercise_three_details">	গর্ভাবস্থায় ২টি টিটি টিকা দিতে হবে।\n
+	প্রসবকালে গর্ভবতী মায়ের অতিরিক্ত রক্তের প্রয়োজন হতে পারে। তাই গর্ভবতী মায়ের রক্তের গ্রুপের সাথে মিলিয়ে ২/৩ জন কে রক্তদানের জন্য ঠিক করে রাখা।\n
+	গর্ভকালীন সময়ে ডাক্তারের পরামর্শ ছাড়া কোন ঔষধ খাওয়া ঠিক না। অপ্রয়োজনীয় কোন ঔষধ একদম খাওয়া ঠিক না।\n
+	মাসিক বন্ধ হয়া থকে ৯ মাস ৭ দিন ব্যাপী মাঝখানে গর্ভবতী মা ও তার পেটের শিশুর যত্ন নেওয়াকে গর্ভকালীন যত্ন বলে। \n
+</string>
 
-    <string name="health_five_title">5.Stay away from Soft Cheeses and Lunch Meat: </string>
-    <string name="health_five_details">Some foods may have bacteria that can hurt your baby. Don’t eat soft cheeses like uncooked or undercooked meats or fish. Lunch meats and hot dogs unless they are heated until streaming hot. </string>
+    <string name="exercise_four_title">পরিস্কার পরিচ্ছন্ন থাকতে হবে এবং নিয়মিত গোসল করতে হবে।</string>
+    <string name="exercise_four_details">এই অবস্থায় একজন মা প্রতিদিন ৩০ মিনিট যেকোনো মধ্যম ব্যায়াম ( যেমনঃ হাঁটা, সাতার কাঁটা ) করতে পারেন সপ্তাহে ৩ দিন থেকে ৭ দিন।
+এতে করে অতিরিক্ত ওজন হওয়া, ডায়াবেটিস এবং প্রেসারের ঝুকি অনেক কমে যায়।
+</string>
 
-    <string name="health_six_title">6.Limit Caffeine and Avoid Alcohol: </string>
-    <string name="health_six_details"> Drink decaffeinated coffee or tea. Drink water or seltzer instead of soda. Don’t drink alcohol</string>
+    <string name="exercise_five_title">গর্ভাবস্থায় ও প্রসবের সময় এই ৫ টি লক্ষ্ণ দেখা দিলে অবশ্যই ডাক্তারের পরামর্শ নিতে হবে-</string>
+    <string name="exercise_five_details">I.	গর্ভাবস্থায়, প্রসবের সময় বা প্রসাবের পর খুব বেশি রক্তস্রাব, গর্ভফুল না পড়া।\n
+II.	গর্ভাবস্থায় বা প্রসবের পর তিন্দিনের বেশি জ্বর বা দুর্গন্ধ যুক্ত স্রাব।\n
+III.	গর্ভাবস্থায়, প্রসবকালে ও প্রসবের পরে শরীরে পানি আসা, খুব বেশি মাথা ব্যাথা, চোখে ঝাপসা দেখা।\n
+IV.	গর্ভাবস্থায়, প্রসবকালে বা প্রসবের পরে খিঁচুনি।\n
+V.	প্রসব ব্যাথা ১২ ঘন্টার বেশি থাকা ও প্রসবের সময় বাচ্চার মাথা ছাড়া অন্য কোন অঙ্গ প্রথমে বের হওয়া।\n
+</string>
+
+    <string name="exercise_six_title">কিছু কুসসংস্কার ও এর সম্পর্কে সঠিক ধারণাঃ </string>
+    <string name="exercise_six_details">গর্ভধারণের পর প্রথম যে অনাকাঙ্ক্ষিত ঘটনা ঘটতে পারে তা হচ্ছে গর্ভপাত।\n
+এজন্যে পরিবারের সদস্যরা অনেক সময় বিভিন্ন কুসংস্কার কে দায়ী করেন, যেমন সন্ধ্যার পর বাইরে বের হয়াই, স্বামী-স্ত্রীর সহবাস, সামান্য আঘাত পাওয়া ইত্যাদি। সাধারণ ভাবে এগুলো গর্ভপাতের জন্য দায়ী না।
+প্রতি ১০০ জন নারীর মধ্যে ১৫ হনের ক্ষেত্রে প্রথম বার গর্ভপাত হওয়ার সম্ভাবনা থাকে। ডাক্তারি পরীক্ষার মাধ্যমে এর কারণ নির্ণয় করা যেতে পারে।\n\n
+
+
+</string>
+
+    <string name="exercise_seven_title">ভিটামিন ঔষুধ:</string>
+    <string name="exercise_seven_details">ভিটামিন ঔষুধ খেতে অনেকে অনীহা প্রকাশ করে, তাদের ধারণা এতে বাচ্চা বড় হয়ে যায় এবং সিজারের সম্ভাবনা বাড়ে।
+এটি একটি ভুল ধারণা। ভিটামিন মায়ের শরীরের রক্তশূন্যতা দূর করে এবং হাড় ক্ষয়ের সম্ভাবনা কমিয়ে দেয়।</string>
+
+    <string name="exercise_eight_title">শারীরিক পরিশ্রম:</string>
+    <string name="exercise_eight_details"> অনেক মায়েরা এসময় শারীরিক পরিশ্রম ও সহবাস করা থেকে বিরত থাকেন এবং এটা গর্ভের বাচ্চার জন্যে ঝুঁকিপূর্ণ মনে করেন।
+কিন্তু কিছু কিছু ঝুঁকিপূর্ণ অবস্থা ( যেমনঃ প্লাসেন্টা প্রিভিয়া, রিপিটেড এবরসন, IUGR ) ছাড়া গর্ভবতী মায়েরা স্বাভাবিক সব কাজই চালিয়ে যেতে পারেন।</string>
+
+    <string name="exercise_nine_title"> পোশাক:</string>
+    <string name="exercise_nine_details">অনেক মায়েরা তাদের পেটিকোট বা সালোয়ারের বাঁধন পেটের উপর শক্ত করে বেঁধে রাখেন যাতে বাচ্চা উপর দিকে উঠে না যায়।
+প্রকৃতপক্ষে এটি একটি ভিত্তিহীন ধারণা, এই সময়ে মায়েদেরকে ঢিলা-ঢালা পোশাক পরার উপদেশ দেওয়া হয়।</string>
+
+    <string name="exercise_ten_title"></string>
+    <string name="exercise_ten_details"></string>
+
+    <string name="exercise_eleven_title"></string>
+    <string name="exercise_eleven_details"> </string>
+
+    <string name="exercise_twelve_title"></string>
+    <string name="exercise_twelve_details"></string>
+
+    // End string for tips for diet chart
+
+    // Start string for tips for Exercise
+
+    <string name="health_one_title">গর্ভবর্তীর লক্ষ্ণ – </string>
+    <string name="health_one_details">I.মাসিক বন্ধ থাকা\n
+II.বমি বমি ভাব\n
+III.স্তনে ব্যাথা\n
+</string>
+
+    <string name="health_two_title">বিশ্ব স্বাস্থ্য সংস্থার সুপারিশ অনুযায়ী ডাক্তার দেখানোর সময়সূচি- কমপক্ষে ৪ বার – </string>
+    <string name="health_two_details">I.১ম ভিজিটঃ ১৬ সপ্তাহ (৪ মাস)\n
+II.২য় ভিজিটঃ ২৪-২৮ সপ্তাহ (৬-৭ মাস)\n
+III.৩য় ভিজিটঃ ৩২ সপ্তাহ (৮ মাস)\n
+IV.৪র্থ ভিজিটঃ ৩৬ সপ্তাহ (৯ মাস)\n
+ </string>
+
+    <string name="health_three_title"> পাথমিক জ্ঞান :</string>
+    <string name="health_three_details">I.প্রথম তিন মাসের পর প্রয়োজনে ১টি করে কৃমিনাশক ট্যাবলেট খেতে হবে।\n
+II.আয়োডিন যুক্ত লবণ খেতে হবে।\n
+III.গর্ভাবস্থা নিশ্চিত হবার পর থেকে প্রতিদিন রাতের খাবারের পরপরই ১টি করে আয়রণ ফলিক ট্যাবলেট খেতে হবে।\n
+</string>
+
+    <string name="health_four_title">প্রতিদিন ভিটামিন আইরন ও ফলিক এসিড জাতীয় খাবার খেতে হবে: </string>
+    <string name="health_four_details">আইরন আমাদের শরীরকে সুস্থ রাখে এবং ফলিক এসিড জন্ম ত্রুটি রক্ষা করে।  </string>
+
+    <string name="health_five_title">ক্যাফেইন: </string>
+    <string name="health_five_details">ক্যাফেইনবিহীন চা অথবা কফি পান করা যাবে ।</string>
+
+    <string name="health_six_title"> অ্যালকোহল : </string>
+    <string name="health_six_details"> অ্যালকোহল পান করা যাবে না ।</string>
 
     // End string for tips for health
 
     // Start string for tips for Test
 
-    <string name="test_heading"> Below is a recommended schedule for tests performed during pregnancy. The tests aim to provide during pregnancy. The tests aim to provide basic information while tracking a routine pregnancy. Consult your nurse or physician if you have any questions.</string>
+    <string name="test_heading"> এখানে সপ্তাহ অনুযায়ী করনীয় এবং ভিভিন্ন পরীক্ষা সপমরকে বলা হয়েছে । </string>
 
-    <string name="test_one_title">1.Urine or Blood Test: </string>
-    <string name="test_one_details"> Around the time of the delayed menstruation, a urine or blood test can be performed to determine pregnancy.</string>
+    <string name="test_one_title">প্রথম তিন মাস\n
+৪র্থ সপ্তাহ থেকে ৬ষ্ঠ সপ্তাহ:
+ </string>
+    <string name="test_one_details">৪র্থ:\nঅভিনন্দন!! \n\n
+    ৫ম:\nএই সপ্তাহে আপনি গর্ভধারণের উপসর্গ গুলো সম্পর্কে পরিচিত হতে শুরু করবেন। স্তনের নাজুকতা, বমি বমি ভাব, ক্লান্তি ও অবসাদ দেখা দিতে পারে। প্রথম তিন মাস এই লক্ষন গুলো থাকে পরবর্তীতে এর পরিমাণ কমে আসে। এই সময় নিজের যত্ন নিন।\n
+এই সপ্তাহে বাচ্চার হৃদপিন্ড, পাকস্থলি, লিঙ্গ ও কিডনির গঠন শুরু হয়। বাচ্চা ৩ ইঞ্চির মত লম্বা হয় এবং খুব দ্রুত বাড়তে থাকে।\n\n
+    ৬ষ্ঠ:\nআপনার আচরণগত কিছু পরিবর্তন আসতে পারে। আপনি কখনো হয়ত আবেগপ্রবণ হয়ে উঠতে পারেন আবার কখনো উৎফুল্ল হয়ে উঠতে পারেন। গর্ভধারণের লক্ষণগুলো নিয়ে অস্বস্তিতে ভুগতে পারেন। এই সপ্তাহে বাচ্চার অনেক গুরুত্বপূর্ণ গঠন যেমনঃ চোখ, নাক, কান, চিবুক এবং রক্ত চলাচল ব্যবস্থা তৈরী হতে শুরু করে। সাস্থ্যকর খাবার গ্রহণ করুন এবং পরজপ্ত বিশ্রাম নিন।</string>
 
-    <string name="test_two_title">2.Ultra Sound Test: </string>
-    <string name="test_two_details"> At 7-8 weeks a woman should have an ultrasound to determine the location of the pregnancy sac, size and heartbeat of the fetus.</string>
+    <string name="test_two_title">৭ম সপ্তাহ থেকে ৯ম সপ্তাহঃ  </string>
+    <string name="test_two_details">৭ম:\n
+        বাচ্চার হাড়ের গঠন শুরু হয়। এখন বাচ্চার মুখ, ঠোট, নাকের গঠন বোঝা যায়। অল্পতেই ক্লান্ত বোধ করতে পারেন। যথাসম্ভব বিশ্রাম নেওয়ার চেষ্টা করুন। হরমোনাল পরিবর্তনের কারণে হাত পা বা মুখে নতুন লোম দেখা দিতে পারে। যদি অতিরিক্ত বমি হয় বা ওজন কুমতে থাকে তাহলে ডাক্তারের পরামর্শ নিন।\n\n
+        ৮ম:\nএই সপ্তাহে বাচ্চা ১২ মি মি এর মত লম্বা হয়। বাচ্চার দুধ দাতের গঠন শুরু হয়। আপনি বাচ্চার নড়াচড়া অনুভব করতে পারবেন না কিন্তু এখন থেকেই বাচা হাত ও পা নড়াচড়া করতে শুরু করে। বদ হজম বা বুক জালাপোড়া দেখা দিতে পারে। একবারে অনেক খাবার না খ্যে অল্প অল্প করে বারবার খান।\n\n
+        ৯ম:\nবাচ্চা ২০ মি মি এর মত লম্বা হয়। হৃদপিণ্ডের গঠন সম্পূর্ণ হয়। সকাল্বেলা বা রাতে বমে ও মাথাব্যাথার প্রকোপ বেড়ে যেতে পারে। এই সময় মুড সুইং খুবই সাধারণ ঘটনা। অল্প কিছুতেই উদ্বিগ্ন বা রেগে যেতে পারেন বা বিষণ্ণতায় ভুগতে পারেন।
+</string>
 
-    <string name="test_three_title"> 3.Routine Tests:</string>
-    <string name="test_three_details">At 10 weeks your doctor will give you a follow-up card to track your pregnancy.
-    Routine Tests: Blood count, fasting glucose, urine culture, blood type rubella antibodies, VDRL, CMV, antibodies, toxoplasma and HBsAG and if necessary an HIV test.
+    <string name="test_three_title"> ১০তম সপ্তাহ থেকে ১২তম সপ্তাহঃ    </string>
+    <string name="test_three_details"> ১০তম:\nঢিলেঢালা ও আরামদায়ক পোশাক নির্বাচন করুন। এই সপ্তাহে বাচ্চা ২-৩ সে মি এর মত লম্বা হয় এবং ওজন ৩-৫ গ্রামের মত হয়। \n\n
+        ১১তম:\nএখন আপনার বমি ভাব ও মাথা ব্যাথা কমে আসবে। বাচ্চার ওজন ৮ গ্রামের মত হয় ও ৩-৫ সে মি এর মত লম্বা হয়।\n\n
+        ১২তম:\nএটা আপনার প্রথম তিন মাসের শেষ সপ্তাহ। এই সপ্তাহে বাচ্চার নাক ও ঠোটের গঠন সম্পূর্ণ হয়। পারবে। এই সময় কোষ্ঠকাঠিন্য দেখা দিতে পারে। প্রচুর পানি পান করুন এবং আঁশযুক্ত খাবার খান। বাচ্চা ৫-৬ সে মি এর মত লম্বা হয়।
+
     </string>
 
-    <string name="test_four_title">4.Early Ultrasound Screen Test: </string>
-    <string name="test_four_details">Week 15-16: early ultrasound screening test, An ultrasound scan sends sound waves through your uterus. These waves bounce off your baby as echoes. </string>
+    <string name="test_four_title">দ্বিতীয় তিন মাস\n
+ ১৩তম সপ্তাহ  থেকে ১৫তম সপ্তাহঃ
+ </string>
+    <string name="test_four_details">১৩তম:\nখাবারে রুচি বেড়ে যেতে পারে বা বমি ভাবের কারণে অরুচি দেখা দিতে পারে। টক, মস্লাদার বা মিষ্টি খাবারের প্রতি আসক্তি দেখা দিতে পারে। বমি ভাব কমে যাবে এবং আগের থেকে কিছুটা সুস্থ বোধ করবেন।\n\n
+        ১৪তম সপ্তাহঃ \nএই সপ্তাহে বাচ্চার নড়াচড়া অনুভব করবেন। এই সম্য বাচ্চা ৯-১০ সে মি লম্বা হয় ও ওজন ৫০ গ্রামের মত হয়। এই সময় বাচ্চা শ্বাস প্রশ্বাস নেয় ও অ্যামিওনিটিক ফ্লুইড গ্রহণ করে। ঘুএর সমস্যা দেখা দিতে পারে ও পায়ে ব্যাথা হতে পারে। হালকা ম্যাসাজ করলে উপকার পাওয়া যাবে।\n\n
+        ১৫তম সপ্তাহঃ \nএই সপ্তাহে বাচ্চা ৯-১০ সে মি লম্বা হয় ও ওজন ১০০ গ্রামের মত হয়। বাচার ত্বক খুবি পাতলা হয় এবং চুল উঠতে শুরু করে। এই সময় বমি বমি ভাব কমে আসবে এবং আগের থেকে সুস্থ নুভব করবেন। হাত ও পায়ে পানি আসতে পারে। এক্ষেত্রে হালকা ব্যায়াম, সাঁতার বা হাটাহাটি করতে পারেন এবং অবশ্যই নিয়মিত ৮ গ্লাসের মত পানি পান করবেন।
+    </string>
 
-    <string name="test_five_title">5.Triple Screen Test: </string>
-    <string name="test_five_details">Week 17: Triple screen test, fetoprotein or amniocentesis and blood count. The results of the blood test can help your doctor see if your baby may be at higher risk fir certain birth defects such as down syndrome and neural tube defects. </string>
+    <string name="test_five_title">১৬ সপ্তাহ থেকে ১৮ সপ্তাহঃ   </string>
+    <string name="test_five_details">১৬ সপ্তাহ:\nএই সপ্তাহে বাচ্চা ১১-১২ সে মি লম্বা হয়। এই সময় বাচ্চার কান ও চোখ সঠিক অবস্থানে আসে। হাত ও পায়ের নখ তৈরী হয়। কোমরে ব্যাথা অনুভব করতে পারেন। এই ক্ষেত্রে বাম দিকে কাত হয়ে ঘুমাবেন। এক জায়গায় অনেকক্ষ্ণ দাঁড়িয়ে থাকবেন না এবং বসার পরে পা ছড়িয়ে দিন। দাঁতের মাড়ি ফুলে যেতে পারে বা রক্ত পড়তে পারে। দাঁতের সঠিক যত্ন নিন ও ডেন্টিস্টের পরামর্শ নিন।\n\n
+    ১৭ সপ্তাহঃ \nএই সপ্তাহে বাচ্চা ১৩.৫ সে মি লম্বা হয় ও ওজন ১৫০ গ্রামের মত হয়। পেটের নিচের অংশে ব্যাথা হতে পারে কারণ বাচ্চার বৃদ্ধির সাথে সাথে পেশীর উপর চাপ পড়ে। কোমরে ও হাতে পায়ে ব্যাথার অনুভূতি থাকতে পারে। আপনার ক্ষুধা বেড়ে যেতে পারে। বুকজালা পোড়া হলে একসাথে বেশী খাবার খাবেন না ও খাবার পর পর শুয়ে পড়বেন না।\n\n
+    ১৮ সপ্তাহঃ \nএই সপ্তাহে বাচ্চা ১৫ সে মি লম্বা হয় ও ওজন ২৫০ গ্রামের মত হয়। এই সময় বাচ্চা শব্দ শুনতে পায় ও নড়াচড়া করার সুজগ পায়। মাথা ঘুরতে পারে, সাদা রঙের vaginal discharge বের হতে পারে। যদি vaginal discharge এর রং পরিবর্তন হয় এবং চুল্কনি ও দুর্গন্ধ থাকে তাহলে ডাক্তারের পরামর্শ নিন।</string>
 
-    <string name="test_six_title">6.Late Ultrasound Anomaly Scan: </string>
-    <string name="test_six_details"> Week 22-25: late ultrasound anomaly, An anomaly scan takes a close look at your baby and your uterus. The person carrying out the scan will check that your baby is developing normally.</string>
+    <string name="test_six_title"> ১৯ সপ্তাহ থেকে ২১ সপ্তাহঃ  </string>
+    <string name="test_six_details"> ১৯ সপ্তাহ:\nএই সপ্তাহে বাচ্চার ওজন ৩০০ গ্রামের মত হই ও ১৬ সে মি লম্বা হয়। এই সময় বাচ্চার ত্বকে সাদা ক্রিমের মত পদার্থের প্রলেপ দেখা যায়। এটা বাচ্চার ত্বককে আয়মিওনিটিক ফ্লুইডের এফেক্ট থেকে রক্ষা করে। যথাসম্ভব বিশ্রাম নেয়ার চেষ্টা করুন।\n\n
+        ২০ সপ্তাহঃ \nএই সপ্তাহে বাচ্চা ১৮ সে মি লম্বা হয় ও ওজন ৩৫০ গ্রামের মত হয়। ঘুমের ব্যাঘাত ঘটতে পারে ও দুঃস্বপ্ন দেখতে পারেন। নিজেকে মনসিক ভাবে শিন্ত রাখার চেষ্টা করুন। যেহেতু বাচ্চা খুব দ্রুত বাড়তে থাকে তাই এটি ফুসফুসে চাপ সৃষ্টি করে। এই জন্য শ্বাসকষ্ট দেখা দিতে পারে। \n\n
+        ২১ সপ্তাহঃ \nএই সপ্তাহে বাচ্চার ওজন ৩৫০-৪২৫ গ্রামের মত হয় ও ১৯ সে মি লম্বা হয়। বাচ্চার চোখের পাপড়ি ও ভ্রূ যুগল তৈরী হতে শুরু করে। বাচ্চার নড়াচড়া আগের চেয়ে বেশি অনুভব করবেন। এই সময়ে বাচ্চার সাদ্গ্রন্থি তৈরী হতে শরু করে তাই মায়ে বিভিন্ন স্বাদের খাবার খাওয়া উচিত।
+    </string>
 
-    <string name="test_seven_title">7.Glucose Tolerance Test: </string>
-    <string name="test_seven_details">Week 26: A glucose tolerance test is done if a glucose screening test result is higher than normal. It is used to diagnose gestational diabetes. Gestational diabetes is high blood sugar that starts or is found during pregnancy.
-
-    Following Point discussion or review with Maternity Doctor, Except Last Point
+    <string name="test_seven_title">২২ সপ্তাহ থেকে ২৪ সপ্তাহঃ  </string>
+    <string name="test_seven_details">২২ সপ্তাহ: \nএই সপ্তাহে বাচ্চা ২০ সে মি এর মত লম্বা হয় ও ওজন ৪২৫-৫০০ গ্রামের মত হয়। আপনার ওজন এখন থেকে দ্রুত বাড়তে থাকবে। এই সময়ে বাচ্চার ঠোঁটের গঠন সম্পূর্ণ হয়। ডায়াবেটিস টেস্ট করাই জন্য ডাক্তারের পরামর্শ নিন (২৪-২৮ সপ্তাহের মধ্যে করাবেন)।\n\n
+        ২৩ সপ্তাহঃ \nএই সপ্তাহে বাচ্চার ওজন ৫০০-৬০০ গ্রামের মত হয় ও ২১ সে মি লম্বা হয়। বাচ্চার ফুসফুসের বৃদ্ধি অব্যাহত থাকে। বাচ্চা আপনার কথা ও হৃদস্পন্দন শুনতে পায়। পায়ে পানি আস্তে পারে ও কোমরে ব্যথা থাকে। দাঁত থেকে রক্ত পড়তে পারে তাই দাঁতের যত্ন নিন।\n\n
+        ২৪ সপ্তাহঃ \nএই সপ্তাহে বাচ্চার ওজন ৬০০-৭০০ গ্রামের মত হয় ও ২২ সে মি লম্বা হয়। বাচ্চার চোখের গঠন সম্পূর্ণ হয়। এই সময় বুক জালাপোড়া, পেশীতে ব্যাথা, মাথা ঘুরানো ও অবসাদ অনুভব করতে পারেন। চোখে শুষ্ক ভাব, কচকচে ভাব ও আলোর প্রতি সংবেদনশীলতা আসতে পারে। শরীরে স্ত্রেচ মার্ক দেখা যায় এবং হালকা চুল্কানিও হতে পারে। এই সময় লোশ্ন বা ক্রীম মাখতে পারেন। এতে করে চুল্কানি কমে যাবে।
      </string>
 
-    <string name="test_eight_title">8.Discussion about Last Test (Glucose Tolerance Test): </string>
-    <string name="test_eight_details">Week 28: A visit to the physician to discuss glucose test results and talk about receiving RH immune globulin if RH negative. </string>
+    <string name="test_eight_title">২৫ সপ্তাহ ও ২৬ সপ্তাহঃ  </string>
+    <string name="test_eight_details">২৫ সপ্তাহ :\nএই স্পতাহে বাচ্চার ওজন ৭০০-৮০০ গ্রামের মত হয় ও ২৩ সে মি লম্বা হয়। এই সময় বাচ্চার বিভিন্ন ইন্দ্রিয় যেমনঃ চোখ, নাক, কান ও জিহ্বা পূরণতা পেতে শুরু করে। বারবার প্রহাবের বেগ পাওয়া বা প্রহাবে জালাপোড়া মূত্রনালীর সংক্রমণ বা ইউরিনারি ট্র্যাক্টে ইনফেকশনের লক্ষণ। এই লক্ষ্ণ গুলোকে পর্যবেক্ষণ করুন ও ডাক্তারের পরামর্শ নিন।\n\n
+    ২৬ সপ্তাহঃ \nএই সপ্তাহে বাচ্চার ওজন ৮৫০-১০০০ গ্রামের মত হয় ও ২৪ সে মি লম্বা হয়। এই সপ্তাহে বাচ্চা প্রথম বারের মত চোখ খুলতে পারে। অল্প অল্প করে বার বার খাবেন এতে আপনার ব্লাড সুগার লেভেল ঠিক থাকবে। এবং ক্লান্তি অনুভব করবেন না। </string>
 
-    <string name="test_nine_title"> 9.Review for Fatal Growth:</string>
-    <string name="test_nine_details">Week 28-30: review of fatal growth of stages during pregnancy. </string>
+    <string name="test_nine_title"> তৃতীয় তিন মাস:\n\n
+২৭ সপ্তাহ থেকে ২৯ সপ্তাহঃ
+</string>
+    <string name="test_nine_details">২৭ সপ্তাহঃ \nএই সপ্তাহে বাচ্চার ওজন ১০০০-১১০০ গ্রামের মত হয় ও ২৫ সে মি লম্বা হয়। \n\n
+    ২৮ সপ্তাহঃ \nবাচ্চার ওজন ১১০০-১২৫০ গ্রামের মত হয় ও ২৬ সে মি লম্বা হয়। অনেকেরই প্রসবের নির্ধারিত সময়ের আগে ব্যাথা বা কিছি লক্ষণ দেখা দিতে পারে। একে প্রিরটাম লেবার বলে। এর লক্ষণ হল কোমরে হল্কা ব্যাথা, পানি ভেঙ্গে যাওয়া, জরায়ু থেকে রক্ত বা পিচ্ছিল পদার্থ বের হওয়া ও ১০ মিনিট পরপর জরায়ুর সংকোচন ও প্রসারণ অনুভব করা। এই লক্ষণগুলো দেখা দেলে দ্রুত ডাক্তারের পরামর্শ নিন।\n\n
+    ২৯ সপ্তাহঃ \nএই সপ্তাহে বাচ্চার ওজন ১৩০০-১৪০০ গ্রামের মত হয় ও ২৭ সে মি লম্বা হয়। গর্ভাবস্থায় হাঁটা সবচেয়ে ভালো ব্যায়াম।
+</string>
 
-    <string name="test_ten_title"> 10.Consult with Maternity Doctor:</string>
-    <string name="test_ten_details">Week 32: for regular follow-up visit. </string>
+    <string name="test_ten_title"> ৩০ সপ্তাহ থেকে ৩২ সপ্তাহঃ </string>
+    <string name="test_ten_details">৩০ সপ্তাহ: \n বাচ্চা ২৮ সে মি লম্বা হয় ও ওজন ১৫০০-১৬০০ গ্রামের মত হয়। এই সময় স্তন থেকে শাল দুধের নিঃসরণ হতে পারে। অনেকেই এটি নপ্রসবের লক্ষ্ণ মনে করতে পারেন। এটি অনেকের ক্ষেত্রে দেখা যাই এতে চিন্তিত হবার কিছু নেই। \n\n
+    ৩১ সপ্তাহঃ \nএই সপ্তাহে বাচ্চার ওজন ১৭০০-১৮০০ গামের মত হয় ও ২৯ সে মি লম্বা হয়। বাচ্চার ওজন দ্রুত বাড়তে থাকে এর ফলে মায়ের ওজনও বেড়ে যায়। এই কারণে হাত পায়ে ব্যাথা থাকতে পারে। ব্যাথা কমানোর জন্য হালকা ম্যাসাজ করাতে পারেন।\n\n
+    ৩২ সপ্তাহঃ \nবাচ্চা ৩০সে মি লম্বা হয় ও ওজন ১৯০০-২০০০ গ্রামের মত হয়। বাচ্চার কিডনীর গঠন সম্পূর্ণ হয়। এই সময় বাচ্চার মাথা নিচের দিকে থাকবে যদি না থাকে তাহলে ডাক্তারের পরামর্শ নিন। হাত পায়ে অতিরিক্ত পানি আসা, চোখে ঝাপসা দেখা ও মাথা ব্যাথা থাকলে জরুরি ভিত্তিতে ডাক্তারের পরামর্শ নিন। এগুলো হল প্রিএকলাম্পাসিয়ার লক্ষণ।</string>
 
-    <string name="test_eleven_title">11. Consult with Maternity Doctor for Weight Growth: </string>
-    <string name="test_eleven_details"> Week 34-39: weekly tracking of fatal growth weight.</string>
+    <string name="test_eleven_title">৩৩ সপ্তাহ থেকে ৩৫ সপ্তাহঃ  </string>
+    <string name="test_eleven_details">৩৩ সপ্তাহ: \nএই সপ্তাহে বাচ্চার ওজন ২১০০-২৫০০ গ্রামের মত হয় ও ৩২ সে মি লম্বা হয়। বাচ্চা মায়ের হৃদস্পন্দন ও কথা শুনতে পায়। যেহেতু এই সময় বাচ্চা দ্রুত বাড়তে থাকে তাই একটু বাড়তি খাবার খান।\n\n
+    ৩৪ সপ্তাহঃ \n এই সপ্তাহে বাচ্চার ওজন ২০৫০-২৫৫০ গ্রামের মত হয় ও ৩৩ সে মি লম্বা হয়। আপনি গর্ভাবস্থার শেষ সময়টুকু পার করছেন তাই দীর্ঘ ভ্রমণ এড়িয়ে চলুন। প্রসব ব্যাথার লক্ষঙুলোর দিকে লক্ষ রাখুন যেমনঃ জরায়ুর সংকোচন ও প্রসারণ, কোমরের নিচের দিকে ব্যাথা, পানি ভেঙ্গে যাওয়া ইত্যাদি।\n\n
+    ৩৫ সপ্তাহঃ \nএই সপ্তাহে বাচ্চার ওজন ২৬০০-২৭০০ গ্রামের মত হয় ও ৩৪ সে মি লম্বা হয়। আপনাকে প্রচুর আয়রণ সমৃদ্ধ খাবার খেতে হবে। কারণ বাচ্চা ভুমিশট হওয়ার আগের মাসে এই অতি প্রয়োজনীয় মিনারেলটি মায়ের শরীর থেকে নিয়ে নেয়। এটি রক্তের কোষ গঠনে সাহায্য করে।</string>
 
-    <string name="test_twelve_title"> 12.Consult about Ultrasound Test:</string>
-    <string name="test_twelve_details">Week 40: follow-up with doctor, ultrasound, monitoring biophysical profile every 2-4 days. </string>
+    <string name="test_twelve_title"> ৩৬ সপ্তাহ থেকে ৩৮ সপ্তাহঃ </string>
+    <string name="test_twelve_details">৩৬ সপ্তাহঃ \n এই সপ্তাহে বাচ্চার ওজন ২৮৫০-২৯৫০ গ্রামের মত হয় ও ৩৫ সে মি লম্বা হয়। প্রের কয়েক সপ্তাহ বাচ্চার শরীর দ্রুত বাড়তে থাকে। এই সময়ে প্রচুর সাদা স্রাব যেতে পারে। এটা খুবি স্বাভাবিক ব্যাপার। যদি স্রাবের সাথে রক্ত দেখা যায় তাহলে বুঝতে হবে প্রসব ব্যাথা শুরু হচ্ছে।\n\n
+    ৩৭ সপ্তাহঃ \n এই সপ্তাহে বাচ্চার ওজন ৩০০০-৩১০০ গ্রামের মত হয় ও ৩৬ সে মি লম্বা হয়। এই সময়ে যদি স্রাবের সাথে রক্ত দেখা যায় তাহ্লে ডাক্তারের সাথে যোগাযোগ করুন।\n\n
+    ৩৮ সপ্তাহঃ  \nএই সপ্তাহে বাচ্চার ওজন ৩২০০-৩২৫০ গ্রামের মত হয় ও ৩৭ সে মি লম্বা হয়। এই সময় বাচ্চার গঠন সম্পূর্ণ হয়। ঘন ঘন প্রসাব হতে পারে কিন্তু এই সময়ে প্রচুর পানি খেতে হবে। অধিকাংশ শিশু জন্মের নির্ধারিত সময়ের ৩-৪ সপ্তাহের আগে জন্ম নেয়।</string>
 
-    <string name="test_thirteen_title">13.Stress Test: </string>
-    <string name="test_thirteen_details">Week 41-42: referral to the delivery room to perform a stress test or induce labor. The contraction stress test also called a stress test or an oxytocin challenge test may be done during pregnancy to measure the baby’s heart rate during uterine contractions. Its purpose is to make sure the baby can get the oxygen he needs from the placenta during labor.  </string>
+    <string name="test_thirteen_title">৩৯ সপ্তাহ ও ৪০ সপ্তাহঃ  </string>
+    <string name="test_thirteen_details">৩৯ সপ্তাহ: \nএই সময় দ্রুত ওজন বাড়তে থাকে এবং প্রসবের লক্ষ্ণগুলোর দিকে লক্ষ্য রাখতে হবে।\n\n
+    ৪০ সপ্তাহঃ \nঅভিনন্দন!! একটি দীর্ঘ ও সুন্দর যাত্রার এটাই শেষ সপ্তাহ। এই সপ্তাহের যেকোনো দিন আপনার ছোট্ট সোনামনি আপনার কোল আলো করে এই পৃথিবীতে আসতে পারে ।</string>
 
     // End string for tips for Test
 
@@ -193,6 +277,20 @@
     <string name="homeStatusTwo">  মাস  </string>
     <string name="homeStatusThree">  সপ্তাহ </string>
     <string name="homeStatus4">  দিনের গর্ভবতী </string>
-    <string name="add_to_rec">boka</string>
+    <string name="add_to_rec">welcome</string>
+    <string name="profile_b_home">হোম</string>
+    <string name="profile_b_emergency">জরুরী সাহায্য</string>
+    <string name="profile_b_logout">বাহির হোন</string>
+    <string name="home_b_settings"> সেটিংস্‌ </string>
+    <string name="test_chart">সপ্তাহ অনুযায়ী পরামর্শ</string>
+    <string name="exercise_tips">অনুশীলনী পরামর্শ</string>
+    <string name="diet_chart">খাদ্য তালিকা</string>
+    <string name="health_tips">স্বাস্থ্য পরামর্শ</string>
+    <string name="name">নাম:</string>
+    <string name="date_of_birth">জন্ম তারিখ:</string>
+    <string name="age">বয়স:</string>
+    <string name="last_monthly_period">পিরিয়ডের শেষ তারিখ:</string>
+    <string name="save">সেভ </string>
+
 
 </resources>

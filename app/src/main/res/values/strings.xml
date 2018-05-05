@@ -54,6 +54,11 @@
 
     // Start string for tips for diet chart
 
+    <string name="tips_diet">Diet Chart</string>
+    <string name="tips_exercise">Exercise Tips</string>
+    <string name="tips_health">Health Tips</string>
+    <string name="tips_test">Test Chart</string>
+
     <string name="diet_one_title">1. Eat some Protein Foods Every Day. Sources of Protein include:</string>
     <string name="diet_one_details">Meat (but avoid leaver), Fish, Poultry, Eggs, Beans, Pulses, Nuts Choose lean meat, remove the skin from poultry, and try not to add extra fat or oil when cooking meat. Eating meat in a healthy way.Try to eat two portions of fish a week, one of which should be oily fish as salmon. Dairy food such as milk, cheese, from age frail and yoghurt are important in pregnancy, because they contain calcium and other nutrients that your baby needs.
     </string>
@@ -196,5 +201,18 @@
     <string name="homeStatusThree"> Week </string>
     <string name="homeStatus4"> Days Pregnant</string>
     <string name="add_to_rec">Add to Record</string>
+    <string name="profile_b_home">Home</string>
+    <string name="profile_b_emergency">Emergency</string>
+    <string name="profile_b_logout">Log Out</string>
+    <string name="home_b_settings">Settings</string>
+    <string name="test_chart">Test Chart</string>
+    <string name="exercise_tips">Exercise Tips</string>
+    <string name="diet_chart">Diet Chart</string>
+    <string name="health_tips">Health Tips</string>
+    <string name="name">Name:</string>
+    <string name="date_of_birth">Date Of Birth:</string>
+    <string name="age">Age:</string>
+    <string name="last_monthly_period">Last Monthly Period:</string>
+    <string name="save">Save</string>
 
 </resources>

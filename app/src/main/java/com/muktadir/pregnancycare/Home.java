@@ -3,10 +3,13 @@ package com.muktadir.pregnancycare;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Rect;
+import android.net.Uri;
 import android.net.sip.SipSession;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,6 +28,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.hitomi.cmlibrary.CircleMenu;
 import com.hitomi.cmlibrary.OnMenuSelectedListener;
 import com.muktadir.pregnancycare.Helper.LocaleHelper;
+import com.muktadir.pregnancycare.Medicine_Pack.Add_Medicine;
 import com.nightonke.boommenu.BoomButtons.OnBMClickListener;
 import com.nightonke.boommenu.BoomButtons.TextInsideCircleButton;
 import com.nightonke.boommenu.BoomMenuButton;
@@ -49,6 +53,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
 
 
     String name,pregDayFinalString;
+    String number = "999";
     String getPeriodDay,getPeriodMonth,getPeriodYear;
 
     int day,pregMonthFinal,pregDayFinal,totalPregDay,totalPregWeek,totalPregMonth;
@@ -68,7 +73,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
         Paper.init(this);
 
         String Language = Paper.book().read("language");
-        Toast.makeText(this, Language, Toast.LENGTH_LONG).show();
+     //   Toast.makeText(this, Language, Toast.LENGTH_LONG).show();
         if(Language==null){
             Paper.book().write("language", "en");
             updateView((String)Paper.book().read("language"));
@@ -352,16 +357,36 @@ public class Home extends AppCompatActivity implements OnClickListener{
                 public void onBoomButtonClick(int index) {
                     // When the boom-button corresponding this builder is clicked.
                     Intent i;
+
                     if (index==0){
+                        showChangeLanguageDialog();
+
+                    }
+                    if (index == 1) {
+                        i = new Intent(Intent.ACTION_CALL);
+                        String dial = "tel:" + number;
+                        if (ActivityCompat.checkSelfPermission(Home.this, android.Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                            // TODO: Consider calling
+                            //    ActivityCompat#requestPermissions
+                            // here to request the missing permissions, and then overriding
+                            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                            //                                          int[] grantResults)
+                            // to handle the case where the user grants the permission. See the documentation
+                            // for ActivityCompat#requestPermissions for more details.
+
+                            return;
+                        }
+                        else {
+                            startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
+                        }
+
+                    }
+                    if (index==2){
                         FirebaseAuth.getInstance().signOut();
                         finish();
                         i = new Intent(Home.this,SignIn.class);
                         startActivity(i);
                         Toast.makeText(getApplicationContext(),"Log Out Successfully",Toast.LENGTH_SHORT).show();
-
-                    }
-                    if (index==1){
-                        showChangeLanguageDialog();
 
                     }
 
@@ -430,17 +455,18 @@ public class Home extends AppCompatActivity implements OnClickListener{
 
     private void setInitialData() {
         //set icon id
-        imageIdList.add(R.drawable.ic_power_settings_new_black_24dp);
         imageIdList.add(R.drawable.ic_build_black_24dp);
-        imageIdList.add(R.drawable.ic_add_alert_black_24dp);
+        imageIdList.add(R.drawable.ic_call_black_24dp);
+        imageIdList.add(R.drawable.ic_power_settings_new_black_24dp);
+
 
 
 
         //set icon title
 
-        imageTitleList.add("Log Out");
-        imageTitleList.add("Settings");
-        imageTitleList.add("Notification");
+        imageTitleList.add(getString(R.string.home_b_settings));
+        imageTitleList.add(getString(R.string.profile_b_emergency));
+        imageTitleList.add(getString(R.string.profile_b_logout));
 
 
     }
@@ -459,7 +485,7 @@ public class Home extends AppCompatActivity implements OnClickListener{
                 startActivity(i);
                 break;
 
-            case R.id.cardVwMedicine : i = new Intent(this,Medicine.class);
+            case R.id.cardVwMedicine : i = new Intent(this,Add_Medicine.class);
                 startActivity(i);
                 break;
 
@@ -484,6 +510,6 @@ public class Home extends AppCompatActivity implements OnClickListener{
     protected void onRestart() {
         super.onRestart();
         String Language = Paper.book().read("language");
-        Toast.makeText(this, Language, Toast.LENGTH_LONG).show();
+       // Toast.makeText(this, Language, Toast.LENGTH_LONG).show();
     }
 }

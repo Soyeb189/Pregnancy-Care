@@ -55,7 +55,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Diet Chart"
+                        android:text="@string/tips_diet"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -92,7 +92,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Exercise Tips"
+                        android:text="@string/tips_exercise"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -128,7 +128,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Health Tips"
+                        android:text="@string/tips_health"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -165,7 +165,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Test Chart"
+                        android:text="@string/tips_test"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                         android:textStyle="bold" />
                 </LinearLayout>
